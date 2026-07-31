@@ -1,3 +1,5 @@
+# Rocketscriptz Bypass / BY BYPASS.LAT(ilat)
+# python rocketscriptz.py {url}
 import sys, requests, re
 
 html = requests.get(sys.argv[1], verify=False).text
